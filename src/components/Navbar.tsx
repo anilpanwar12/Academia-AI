@@ -8,7 +8,7 @@ export function Navbar() {
   const [searchVal, setSearchVal] = useState('');
   const [profile, setProfile] = useState(() => {
     const saved = localStorage.getItem('userProfile');
-    return saved ? JSON.parse(saved) : { name: 'G.S.Gayathri', dept: 'Computer Science' };
+    return saved ? JSON.parse(saved) : { name: 'Anil Panwar', dept: 'Computer Science' };
   });
 
   useEffect(() => {

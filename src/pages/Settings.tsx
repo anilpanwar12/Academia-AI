@@ -27,8 +27,8 @@ export function Settings() {
   const [profile, setProfile] = useState(() => {
     const saved = localStorage.getItem('userProfile');
     return saved ? JSON.parse(saved) : {
-      name: 'G.S.Gayathri',
-      email: 'gs.gayathri@university.edu',
+      name: 'Anil Panmwar',
+      email: 'an.anil@university.edu',
       dept: 'Computer Science',
       office: 'Building B, Room 402',
       bio: 'Senior lecturer with 10+ years of experience in Algorithms and Data Structures.'
@@ -85,8 +85,8 @@ export function Settings() {
   // Profile reset fallback
   const handleResetProfile = () => {
     setProfile({
-      name: 'G.S.Gayathri',
-      email: 'gs.gayathri@university.edu',
+      name: 'Anil Panwar',
+      email: 'an.anil@university.edu',
       dept: 'Computer Science',
       office: 'Building B, Room 402',
       bio: 'Senior lecturer with 10+ years of experience in Algorithms and Data Structures.'

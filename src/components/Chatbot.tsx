@@ -15,7 +15,7 @@ export function Chatbot() {
   const [isMinimized, setIsMinimized] = useState(false);
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'bot', content: 'Hello Prof. Gayathri! How can I assist you with your lectures today?', timestamp: new Date() }
+    { role: 'bot', content: 'Hello Prof. Anil Panwar! How can I assist you with your lectures today?', timestamp: new Date() }
   ]);
   const [isLoading, setIsLoading] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -47,7 +47,7 @@ export function Chatbot() {
         },
         body: JSON.stringify({
           message: userMessage.content,
-          user: 'G.S.Gayathri',
+          user: 'Anil Panwar
           role: 'Asst Professor'
         }),
       });

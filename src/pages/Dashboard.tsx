@@ -64,7 +64,7 @@ export function Dashboard() {
   const navigate = useNavigate();
   const [profile, setProfile] = useState(() => {
     const saved = localStorage.getItem('userProfile');
-    return saved ? JSON.parse(saved) : { name: 'G.S.Gayathri' };
+    return saved ? JSON.parse(saved) : { name: 'Anil Panwar' };
   });
   const [searchQuery, setSearchQuery] = useState('');
 
