@@ -1,0 +1,6 @@
+{
+  "name": "Remix: Academia AI",
+  "description": "AI-powered lecturer management platform for notes generation, question paper creation, and grading.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
